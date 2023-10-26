@@ -4,7 +4,7 @@ use sqlx::{Postgres, Pool, postgres::PgPoolOptions};
 
 use crate::probes;
 use crate::apis;
-use crate::configurations::fromenv::Configuration;
+use crate::core::configurations::fromenv::Configuration;
 
 pub struct AppState {
     pub db: Pool<Postgres>,

@@ -1,7 +1,7 @@
 use crate::server::server;
 
 mod apis;
-mod configurations;
+mod core;
 mod probes;
 mod server;
 

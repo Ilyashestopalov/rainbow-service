@@ -1,5 +1,5 @@
 use std::env;
-use crate::configurations::errors::{ConfigurationError};
+use crate::core::configurations::errors::{ConfigurationError};
 
 pub struct DatabaseConfiguration {
     pub driver: String,
